@@ -20,4 +20,4 @@ function squareSum(numbers) {
 const arr = [1, 2];
 const arr1 = [-11, 17, 17, -10, 7, 17, -13, -9, -6];
 
-console.log(squareSum(arr1));
+squareSum(arr1);
