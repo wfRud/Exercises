@@ -34,6 +34,5 @@ const spaceShip = {
       : console.warn(
           `Statek ${this.name} będący w okolicy ${this.currentLocation} został pokonany przez Klingonów`
         );
-    console.log(positive, negative);
   },
 };
