@@ -1,14 +1,14 @@
 const spaceShip = {
   name: "Enterprise",
-  currentLocation: "Eart",
+  currentLocation: "Earth",
   flyDistance: 0,
 
-  flyTo: function (place, distance) {
+  flyTo(place, distance) {
     this.currentLocation = place;
     this.flyDistance += distance;
   },
 
-  showInfo: function () {
+  showInfo() {
     const info = `
       Informacje o Statku 
       --------------------
@@ -18,9 +18,10 @@ const spaceShip = {
       `;
 
     console.log(info);
+    return info;
   },
 
-  meetClingon: function () {
+  meetClingon() {
     let counter = 0,
       positive = 0,
       negative = 0;
