@@ -42,5 +42,5 @@ class CheckSpeller {
 
 const checkSpeller = new CheckSpeller(
   document.getElementById("textInput"),
-  "matkoboska"
+  "sada, pet, szkola"
 );
